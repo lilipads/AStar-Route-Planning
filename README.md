@@ -1,19 +1,12 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repo uses A* search algorithm to find the shortest path on a map.
 
-<img src="map.png" width="600" height="450" />
+The user provides the starting and ending positions (and optionally a map file). The program will render the shortest path like below (path rendered in orange): 
 
-## Cloning
+![demo](map.png)
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
-```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
+The map data that is used for this project comes in the form of an OSM XML file (.osm file). Read more at [https://wiki.openstreetmap.org/wiki/Main_Page].
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
